@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: burlywood;
+    display: block;
+    
+
+}
+.nav-bar{
+    width: 100%;
+    justify-content: end;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 36px;
+    text-align: center;
+    display: inline-block;
+    animation: navbounce 2s 1s 1 alternate ;
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+li{
+    padding: 5px;
+    list-style: none;
+    margin-top: 4px;
+    
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: blue;
+    padding: 5px;
+    border-radius: 4px;
+    transition: all 1s ease-in-out ;
+    
+}
+a:hover{
+    background-color: blue;
+    color: black;
+
+}
+.details{
+    display: block;
+    margin-top: 30px;
+    padding: 60px;
+}
+.profile-pic{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    display: block;
+    justify-content: start;
+    animation: probounce 2s 1s 1 alternate ;
+
+}
+button{
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    background-color: black;
+    transition: all 1s ease-in;
+    
+
+}
+section{
+    animation: btnbounce 2s 1s 1 alternate ;
+}
+button:hover{
+    background-color: blue;
+    color: black;
+}
+#home{
+    margin-top: 5px;
+}
+
